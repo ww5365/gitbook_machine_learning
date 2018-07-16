@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [第一章 ](chapter1.md)
   * [topic2 - logistic\_regression](chapter1/test.md)
-* [topic1 - 方向导数 梯度](topic1-fang-xiang-dao-shu-ti-du.md)
+  * [topic1- 方向导数 梯度](chapter1/topic1-fang-xiang-dao-shu-ti-du.md)
 
