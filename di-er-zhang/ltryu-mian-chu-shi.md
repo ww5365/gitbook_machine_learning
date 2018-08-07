@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ##参考
 
 1、《机器学习算法-初识Learning to Rank》https://jiayi797.github.io/2017/08/30/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95-%E5%88%9D%E8%AF%86Learning-to-Rank/
@@ -28,6 +32,23 @@ http://www.cnblogs.com/bentuwuying/p/6684585.html
 这个博客中其它文章也非常值得参考，简明扼要；
 
 
-
-
 没有书？论文？
+
+
+> 思路：？
+> LTR的 基础介绍基本理论说明，参考 1 及里面的参考文章
+
+> LTR的算法思想？参考
+> 里面还有穿插了对GBDT算法使用，索引又介绍了GBDT。。 
+
+
+
+>LTR的实际应用?项目
+
+
+
+
+
+
+
+
