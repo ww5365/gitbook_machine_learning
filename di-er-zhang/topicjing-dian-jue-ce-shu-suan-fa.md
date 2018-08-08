@@ -35,6 +35,9 @@ g(X,Y) = H(X) - H(X/Y)
 
 ![](/assets/2-juceshusuanfa-4.png)
 
+H$$A$$(D): 把特征A作为随机变量，计算其信息熵，作为一个惩罚因子；
+
+
 
 
 
