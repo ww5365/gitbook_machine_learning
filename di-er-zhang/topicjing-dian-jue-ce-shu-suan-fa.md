@@ -31,6 +31,11 @@ g(X,Y) = H(X) - H(X/Y)
 
 
 
+* 信息增益率
+
+![](/assets/2-juceshusuanfa-4.png)
+
+
 
 
 
