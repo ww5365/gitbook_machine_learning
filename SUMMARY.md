@@ -4,6 +4,7 @@
 * [第二章](di-er-zhang.md)
   * [topic-LTR-玉面初识](di-er-zhang/ltryu-mian-chu-shi.md)
   * [topic-GBDT- 基本原理](di-er-zhang/topic-gbdt-.md)
+  * [topic-机器学习-相关术语](di-er-zhang/topicji-qi-xue-4e60-xiang-guan-zhu-yu.md)
 * [第一章 ](chapter1.md)
   * [topic2 - logistic\_regression](chapter1/test.md)
   * [topic1- 方向导数 梯度](chapter1/topic1-fang-xiang-dao-shu-ti-du.md)
