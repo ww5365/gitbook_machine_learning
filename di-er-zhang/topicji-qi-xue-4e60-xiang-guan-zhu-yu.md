@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | 输出 | 离散数据 | 连续数据 |
 | 目标 | 寻找决策的边界 | 寻找最优拟合 |
-| 评价 | accuracy  混淆矩阵等 | SSE\(sum of square errors\) |
+| 评价 | accuracy  混淆矩阵等 | SSE\(sum of square errors\) 拟合优度 |
 
 2、unsupervise learning: 从无标记的训练数据中推断出结论，发现隐藏在数据背后规律；典型应用：聚类分析
 
