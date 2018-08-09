@@ -69,6 +69,13 @@ H\(D,A1\) = ?
 classification and regression tree: 也就是说是分类树，也是回归树
 
 
+### 分类树
+
+决策条件： 基尼指数
+
+
+
+
 
  
   
