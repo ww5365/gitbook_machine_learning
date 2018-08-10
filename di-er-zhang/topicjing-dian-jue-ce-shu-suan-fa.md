@@ -121,9 +121,9 @@ $$Gini(D,A) = \frac {|D_1|}{|D|}gini(D_1) + \frac {|D_2|}{|D|}gini(D_2)$$
 3、https://juejin.im/post/5a16b2276fb9a044fe4608c8
 CART--诞生即有理
 
-4、https://cethik.vip/2016/09/21/machineCAST/
+这篇文章实例说明回归树的建立，参考：https://cethik.vip/2016/09/21/machineCAST/
 
-这篇文章实例说明回归树的建立
+
 
 
 
