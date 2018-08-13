@@ -34,17 +34,22 @@ g\(X,Y\) = H\(X\) - H\(X/Y\)
 $$ H_A(D) $$: 把特征A作为随机变量，计算其信息熵，作为一个惩罚因子；
 
 表示什么含义？
-
-
+某个特征的熵越小，信息增益率越大；也就是说某个特征取值越稳定，越利于信息提纯；
 
 
 * 计算下面训练实例的信息增益和信息增益率？基尼指数？
 
 ![](/assets/2-jueceshusuanfa-3.png)
 
+集合D整体熵：
 H\(D\)=?
 
+某种特种条件下的熵：
 H\(D,A1\) = ?
+
+信息增益=？
+
+信息增益率=?  c4.5
 
 
 
@@ -127,8 +132,10 @@ $$Gini(D,A) = \frac {|D_1|}{|D|}gini(D_1) + \frac {|D_2|}{|D|}gini(D_2)$$
 
 2、[https://www.cnblogs.com/muzixi/p/6566803.html](https://www.cnblogs.com/muzixi/p/6566803.html)
 
+
 3、http://shiyanjun.cn/archives/428.html
 
+everynote笔记：《分类算法：决策树（C4.5）》
 有计算决策树c4.5的详细过程演示
 
 
