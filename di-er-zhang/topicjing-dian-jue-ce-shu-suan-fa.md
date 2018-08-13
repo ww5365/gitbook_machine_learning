@@ -120,6 +120,8 @@ $$Gini(D,A) = \frac {|D_1|}{|D|}gini(D_1) + \frac {|D_2|}{|D|}gini(D_2)$$
 
 集合：R1 = {x|x<=s}    R2 = {x|x>s}
 
+c1 = 1/N
+
 
 
 
