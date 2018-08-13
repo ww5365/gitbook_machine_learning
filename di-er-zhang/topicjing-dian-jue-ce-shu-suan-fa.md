@@ -127,6 +127,10 @@ $$Gini(D,A) = \frac {|D_1|}{|D|}gini(D_1) + \frac {|D_2|}{|D|}gini(D_2)$$
 
 2、[https://www.cnblogs.com/muzixi/p/6566803.html](https://www.cnblogs.com/muzixi/p/6566803.html)
 
+3、http://shiyanjun.cn/archives/428.html
+
+有计算决策树c4.5的详细过程
+
 
 3、https://juejin.im/post/5a16b2276fb9a044fe4608c8
 CART--诞生即有理
