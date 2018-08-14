@@ -36,12 +36,12 @@ GBDT(Gradient Boosting Decision Tree)基本原理
 这篇文章：有实例演示GBDT算法的创建过程
 
 
-5、https://zhuanlan.zhihu.com/p/29765582
+5、http://aandds.com/blog/ensemble-gbdt.html
 
 GBDT:
 
-gradient
-boosting
+gradient： 梯度  -》负梯度就是残差 
+boosting： k个基本模型的叠加
 DT: 回归决策树
 
 
