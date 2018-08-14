@@ -4,11 +4,25 @@
 
 原因就是过拟合。过拟合就是模型在训练数据集上表现的过于好，分的过于细。以致于容错能力很低，也可以称作”泛化能力“低。这就会导致在实际测试数据中表现明显差很多
 
+
+回归的目标？
+
+1、找个一个函数f，使得f(x)趋近于y真实值；
+2、要在损失最小的条件下，得到f。
+
+
+
 ## 二、
 
 arg max f(x): 当f(x)取最大值时，x的取值
 
 arg min f(x)：当f(x)取最小值时，x的取值
+
+
+
+
+
+
 
 
 
@@ -38,7 +52,7 @@ GBDT(Gradient Boosting Decision Tree)基本原理
 
 5、http://aandds.com/blog/ensemble-gbdt.html
 
-GBDT:
+GBDT: 梯度提升算法 + CART回归树
 
 gradient： 梯度  -》负梯度就是残差 
 boosting： k个基本模型的叠加
