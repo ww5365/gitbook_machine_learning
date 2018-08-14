@@ -4,7 +4,11 @@
 
 原因就是过拟合。过拟合就是模型在训练数据集上表现的过于好，分的过于细。以致于容错能力很低，也可以称作”泛化能力“低。这就会导致在实际测试数据中表现明显差很多
 
+## 二、
 
+arg max f(x): 当f(x)取最大值时，x的取值
+
+arg min f(x)：当f(x)取最小值时，x的取值
 
 
 
@@ -25,7 +29,24 @@ GBDT(Gradient Boosting Decision Tree)基本原理
 
 3、https://plushunter.github.io/2017/01/22/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E7%B3%BB%E5%88%97%EF%BC%887%EF%BC%89%EF%BC%9AGBDT/
 
-这篇文章：
+这篇文章：总结了回归树，BDT，GBDT
+
+
+4、https://blog.csdn.net/zpalyq110/article/details/79527653
+这篇文章：有实例演示GBDT算法的创建过程
+
+
+5、https://zhuanlan.zhihu.com/p/29765582
+
+GBDT:
+
+gradient
+boosting
+DT: 回归决策树
+
+
+
+
 
 
 
