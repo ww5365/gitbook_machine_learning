@@ -39,8 +39,10 @@ TIPS：
  
  ## 三、实例演示GBDT算法
 
+![](/assets/2-gdbt-jibenyuanli-2.jpeg)
 
 
+训练数据有4条，2个特征(age,weight),结论是预测身高？
 
 
 
