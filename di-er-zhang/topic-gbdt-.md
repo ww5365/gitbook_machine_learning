@@ -21,6 +21,14 @@ arg min f(x)：当f(x)取最小值时，x的取值
 I: 指标函数，属于定义域时，取值1；不属于时，取值0；
 
 
+![](/assets/2-gbdt-jibenyuanli-1.png)
+
+
+
+
+
+
+
 
 
 
