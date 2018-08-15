@@ -33,6 +33,13 @@ TIPS：
 
 * 步骤c，d 最难理解的是定义域x的空间划分$$R_{jm}$$？
  
+ 
+ 
+ 
+ 
+ ## 三、实例演示GBDT算法
+ ![](/assets/2-gdbt-jibenyuanli-2.jpeg)
+ 
 
 
 
