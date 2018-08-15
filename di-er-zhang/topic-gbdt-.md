@@ -38,8 +38,6 @@ TIPS：
  
  
  ## 三、实例演示GBDT算法
- ![](/assets/2-gdbt-jibenyuanli-2.jpeg)
- 
 
 
 
