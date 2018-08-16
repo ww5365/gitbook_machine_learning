@@ -56,11 +56,16 @@ https://jiayi797.github.io/2017/09/25/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE
 
 这篇文章剪辑到everynote，里面最终要是介绍各个算法时，参考的文章。
 
-4、Learning to Rank算法介绍：GBRank
+重点参考下面的两篇：
+
+《GBRank:一种基于回归的学习排序算法》:
+http://kubicode.me/2016/05/08/Machine%20Learning/GBRank-A-PairWsie-LTR-Base-on-Regression-Framework/?utm_source=tuicool&utm_medium=referral
+这篇文章，进行基本的说明；
+
+《Learning to Rank算法介绍：GBRank》
 
 http://www.cnblogs.com/bentuwuying/p/6684585.html
-
-这篇文章就是3中参考的一篇文章，写的很简洁，清晰；
+写的很简洁，清晰；
 这个博客中其它文章也非常值得参考，简明扼要；
 
 
