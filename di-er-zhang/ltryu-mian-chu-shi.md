@@ -1,5 +1,10 @@
 #topic-LTR-玉面初识
 
+## 一、为什么提出LTR？
+
+LTR： learning to rank
+
+
 
 
 
