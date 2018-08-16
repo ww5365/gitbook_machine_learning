@@ -4,6 +4,32 @@
 
 LTR： learning to rank
 
+相关度的排序模型：布尔模型 向量空间模型，隐语义分析(latent semantic analysis),BM25, LMIR模型
+
+主要是query召回相关文档时使用，bs召回阶段。。
+
+重要性排序模型：pagerank，HITS。。
+
+以上传统模型的缺陷？只能考虑一种特征(相关性，重要性)，使用LTR，可以考虑多种特征，来训练模型。
+
+
+## 二、LTR 
+
+### 2.1 算法分类
+
+* pointwise:
+* pairwise: RankSVM, GBRank, LambdaRank
+* listwise:
+
+
+
+### 2.2 排序问题转化到分类/回归问题？
+
+
+
+
+
+
 
 
 
@@ -17,11 +43,12 @@ LTR： learning to rank
 
 1、《机器学习算法-初识Learning to Rank》https://jiayi797.github.io/2017/08/30/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95-%E5%88%9D%E8%AF%86Learning-to-Rank/
 
-这篇文章可以初窥LTR是什么？
+这篇文章基本是综述，能对LTR有初步了解；
+* 为什么LTR?
+* LTR 算法分类？如何将排序问题转化成机器学习的分类或回归问题？
 
-2、《机器学习排序之Learning to Rank简单介绍》
-https://yq.aliyun.com/articles/26127
-
+* 文章中对pairwise原理的介绍中，有个插图参考了：
+《机器学习排序之Learning to Rank简单介绍》：https://yq.aliyun.com/articles/26127
 
 
 3、《机器学习算法-L2R进一步了解》
