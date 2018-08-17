@@ -68,7 +68,7 @@ http://kubicode.me/2016/05/08/Machine%20Learning/GBRank-A-PairWsie-LTR-Base-on-R
 * 《Learning to Rank算法介绍：GBRank》
 http://www.cnblogs.com/bentuwuying/p/6684585.html
 写的很简洁，清晰；
-这个博客中其它文章也非常值得参考，简明扼要；
+这个博主其它文章，涉及GDBT及搜索引擎相关的，也非常值得参考，简明扼要；
 
 
 
