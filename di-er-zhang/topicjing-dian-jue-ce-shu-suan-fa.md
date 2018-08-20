@@ -1,4 +1,4 @@
-![](/assets/2-juceshusuanfa-6.png)# topic-经典决策树算法
+# topic-经典决策树算法
 
 ## 一、熵
 
@@ -161,7 +161,7 @@ https://github.com/ww5365/my-gbrank/regression_tree.py
 * 对样本会先按照X的特征值进行排序，按照排序后的顺序寻找切分点。
 
 * 可以存在问题？
-
+![](/assets/2-juceshusuanfa-6.png)
 
 
 
