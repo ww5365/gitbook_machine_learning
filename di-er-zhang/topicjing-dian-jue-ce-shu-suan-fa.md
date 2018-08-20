@@ -1,4 +1,4 @@
-# topic-经典决策树算法
+![](/assets/2-juceshusuanfa-6.png)# topic-经典决策树算法
 
 ## 一、熵
 
