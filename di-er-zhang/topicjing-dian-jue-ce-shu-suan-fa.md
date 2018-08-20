@@ -160,7 +160,10 @@ https://github.com/ww5365/my-gbrank/regression_tree.py
 
 * 对样本会先按照X的特征值进行排序，按照排序后的顺序寻找切分点。
 
-* 有
+* 可以存在问题？
+
+
+
 
 
 
