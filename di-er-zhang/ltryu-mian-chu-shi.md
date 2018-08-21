@@ -27,6 +27,13 @@ LTR： learning to rank
 
 
 
+![](/assets/2-ltr-1.png)
+
+
+
+
+
+
 
 
 
