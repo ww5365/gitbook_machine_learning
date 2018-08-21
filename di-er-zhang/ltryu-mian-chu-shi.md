@@ -26,6 +26,7 @@ LTR： learning to rank
 ### 2.2 排序问题转化到分类/回归问题？
 
 
+GBRank算法描述：
 
 ![](/assets/2-ltr-1.png)
 
