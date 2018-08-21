@@ -33,6 +33,28 @@ GBRank算法描述：
 
 
 
+### 2.3 代码实现
+
+
+https://github.com/ww5365/my-gbrank/blob/master/gbrank.py
+
+代码实现可能存在的两个大问题：
+
+* gbdt 回归数据的实现，没有使用boosting思想。。
+
+* 模拟算法生成回归数据pair时，有问题？对应create regression data步骤，如下：
+
+
+```python
+if ys_predict_1 < ys_predict_2 + self.tau:
+  X_train_for_n_tree.append(X_target_in_qid[ind_1])
+  ys_train_for_n_tree.append(ys_target_in_qid[ind_1] + self.tau)
+  X_train_for_n_tree.append(X_target_in_qid[ind_2])
+  ys_train_for_n_tree.append(ys_target_in_qid[ind_2] - self.tau)
+
+```
+
+
 
 
 
