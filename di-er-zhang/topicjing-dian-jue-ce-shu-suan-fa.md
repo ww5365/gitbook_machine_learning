@@ -78,10 +78,7 @@ H\(D,A1\) = ?
 信息增益=？
 信息增益率=?  
 
-
-
-
-
+![](/assets/2-jueceshusuanfa-7.jpg)
 
 
 
