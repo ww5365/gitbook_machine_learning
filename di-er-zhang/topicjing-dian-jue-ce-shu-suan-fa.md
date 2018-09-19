@@ -155,6 +155,11 @@ $$min\{\sum_{i\in R1}(y_i-c_1)^2 + \sum_{j\in R2}(y_j-c_2)^2\}$$
 
 
 
+
+
+
+
+
 * 算法实现说明：
 
  1、具体实例可见参考4；第二轮之后使用残差进行计算(也就是gradient boosting 的思想)
@@ -176,6 +181,9 @@ $$min\{\sum_{i\in R1}(y_i-c_1)^2 + \sum_{j\in R2}(y_j-c_2)^2\}$$
 
 
 
+
+
+
 ### 3.4 回归树实现代码
 
 https://github.com/ww5365/my-gbrank/regression_tree.py
@@ -189,24 +197,8 @@ https://github.com/ww5365/my-gbrank/regression_tree.py
 
 ![](/assets/2-juceshusuanfa-6.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-  
-    
-
-## 
+   
 
 ## 参考
 
