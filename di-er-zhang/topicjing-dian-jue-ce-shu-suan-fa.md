@@ -172,6 +172,9 @@ $$min\{\sum_{i\in R1}(y_i-c_1)^2 + \sum_{j\in R2}(y_j-c_2)^2\}$$
 
 
 
+
+
+
 ### 3.4 回归树实现代码
 
 https://github.com/ww5365/my-gbrank/regression_tree.py
