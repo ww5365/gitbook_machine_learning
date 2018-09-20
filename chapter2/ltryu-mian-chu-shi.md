@@ -1,4 +1,4 @@
-* [ ] ![](/assets/2-ltr-2.png)\#topic-LTR-玉面初识
+#topic-LTR-玉面初识
 
 ## 一、为什么提出LTR？
 
