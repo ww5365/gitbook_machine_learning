@@ -90,7 +90,8 @@ if ys_predict_1 < ys_predict_2 + self.tau:
   写的很简洁，清晰；  
   这个博主其它文章，涉及GDBT及搜索引擎相关的，也非常值得参考，简明扼要；
 
-* 论文：《》
+* 论文：《A Regression Framework for Learning Ranking Functions Using Relative Relevance Judgments》
+
 
 没有书？论文？
 
