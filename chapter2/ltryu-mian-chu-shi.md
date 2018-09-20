@@ -79,7 +79,7 @@ if ys_predict_1 < ys_predict_2 + self.tau:
 
 这篇文章剪辑到everynote，里面最终要是介绍各个算法时，参考的文章。
 
-重点参考下面的两篇：
+重点参考下面的文章：
 
 * 《GBRank:一种基于回归的学习排序算法》:  
   [http://kubicode.me/2016/05/08/Machine Learning/GBRank-A-PairWsie-LTR-Base-on-Regression-Framework/?utm\_source=tuicool&utm\_medium=referral](http://kubicode.me/2016/05/08/Machine Learning/GBRank-A-PairWsie-LTR-Base-on-Regression-Framework/?utm_source=tuicool&utm_medium=referral)  
@@ -89,6 +89,8 @@ if ys_predict_1 < ys_predict_2 + self.tau:
   [http://www.cnblogs.com/bentuwuying/p/6684585.html](http://www.cnblogs.com/bentuwuying/p/6684585.html)  
   写的很简洁，清晰；  
   这个博主其它文章，涉及GDBT及搜索引擎相关的，也非常值得参考，简明扼要；
+
+* 论文：《》
 
 没有书？论文？
 
