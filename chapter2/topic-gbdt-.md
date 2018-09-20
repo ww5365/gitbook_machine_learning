@@ -96,7 +96,9 @@ DT: 回归决策树
 
 4、http://www.cnblogs.com/bentuwuying/p/6667267.html
 
-基于GBDT的景点论文的博文：《Greedy Function Approximation：A Gradient Boosting Machine》
+基于GBDT的经典论文的博文：《Greedy Function Approximation：A Gradient Boosting Machine》
+
+这篇博文，深度更深，理论性更强；
 
 
 
