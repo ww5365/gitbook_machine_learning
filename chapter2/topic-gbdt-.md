@@ -82,17 +82,17 @@ $$f(x)=f_M(x)=f_0(x) + \sum_{m=1->M}\sum_{j=1->J}r_{jm}I(x\in R_{jm})$$
 
 这篇文章：总结了回归树，BDT，GBDT
 
-2、https://blog.csdn.net/zpalyq110/article/details/79527653
-这篇文章：有实例演示GBDT算法的创建过程
-
-
-3、http://aandds.com/blog/ensemble-gbdt.html
+2、http://aandds.com/blog/ensemble-gbdt.html
 
 GBDT: 梯度提升算法 + CART回归树
 
 gradient： 梯度  -》负梯度就是残差 
 boosting： k个基本模型的叠加
 DT: 回归决策树
+
+3、https://blog.csdn.net/zpalyq110/article/details/79527653
+这篇文章：有实例演示GBDT算法的创建过程
+
 
 4、http://www.cnblogs.com/bentuwuying/p/6667267.html
 
