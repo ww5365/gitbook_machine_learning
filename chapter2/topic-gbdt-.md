@@ -5,7 +5,7 @@
 * 什么是GBDT？
 
 gradient： 梯度 -》负梯度就是残差 
-boosting： k个基本模型的叠加
+boosting： k个基本模型的叠加; 一些类函数的梯度下降；
 DT: 回归决策树
 
 * 为什么需要GBDT？
@@ -97,7 +97,7 @@ DT: 回归决策树
 
 基于GBDT的经典论文的博文：《Greedy Function Approximation：A Gradient Boosting Machine》
 
-这篇博文，深度更深，理论性更强；
+这篇博文，深度更深，理论性更强；已经收藏到everynote笔记中，有部分读书笔记，可以参考；
 
 
 
