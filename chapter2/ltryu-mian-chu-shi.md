@@ -24,7 +24,9 @@ LTR： learning to rank
 * pairwise: RankSVM, GBRank, LambdaRank
 * listwise:
 
-### 2.2 排序问题转化到分类/回归问题？
+### 2.2 GBRank
+
+GBRank的创新点之一就在于构造一个特殊的loss function;
 
 GBRank算法描述：
 
