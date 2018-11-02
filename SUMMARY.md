@@ -11,4 +11,6 @@
   * [topic1- 方向导数 梯度](chapter1/topic1-fang-xiang-dao-shu-ti-du.md)
   * [topic3 - 浅层神经网络](chapter1/topic3-qian-ceng-shen-jing-wang-luo.md)
   * [topic4 - CNN](chapter1/topic4-cnn.md)
+* [第0章](di-0-zhang.md)
+  * [topic1 - 常见的统计指标](di-0-zhang/topic1-chang-jian-de-tong-ji-zhi-biao.md)
 
