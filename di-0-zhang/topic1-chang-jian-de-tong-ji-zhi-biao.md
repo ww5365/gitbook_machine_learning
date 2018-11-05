@@ -39,6 +39,46 @@ $$var(x) = D(x) = 1/(n-1)\sum(x-E(x)^2)$$
 
 $$cov(x,y) = E((E(x)-x)(E(y)-y))$$
 
+如果x=y,协方差就是方差；
+
+
+```c++
+
+# Sample Date - SH000300 Earning in 2017-03
+
+datas = [0.16, -0.67, -0.21, 0.54, 0.22, -0.15, -0.63, 0.03, 0.88, -0.04, 0.20, 0.52, -1.03, 0.11, 0.49, -0.47, 0.35, 0.80, -0.33, -0.24, -0.13, -0.82, 0.56]
+
+mean1 = sum(datas)/len(datas) # result =  0.0060869565217391355
+
+square_datas = []
+
+for i in datas:
+
+square_datas.append((i-mean1)*(i-mean1))
+
+variance = sum(square_datas)/len(square_datas)
+
+print(str(variance))
+
+# result = 0.25349338374291114
+
+ 
+
+# 当然如果你使用了numpy，那么求方差将会十分的简单：
+
+import numpy as np
+
+datas = [0.16, -0.67, -0.21, 0.54, 0.22, -0.15, -0.63, 0.03, 0.88, -0.04, 0.20, 0.52, -1.03, 0.11, 0.49, -0.47, 0.35, 0.80, -0.33, -0.24, -0.13, -0.82, 0.56]
+
+variance = np.var(datas)
+
+print(str(variance))
+
+# result = 0.253493383743
+
+
+```
+
 
 * pearson 相关系数
 
