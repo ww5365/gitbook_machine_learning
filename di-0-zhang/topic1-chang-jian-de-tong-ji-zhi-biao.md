@@ -39,45 +39,50 @@ $$var(x) = D(x) = 1/(n-1)\sum(x-E(x)^2)$$
 
 $$cov(x,y) = E((E(x)-x)(E(y)-y))$$
 
-如果x=y,协方差就是方差；
+如果x=y,协方差就是方差: cov(x,x) = var(x)
 
+```
+# 沪深300某个月的涨跌与格力电器该月的涨跌额之间的协方差
 
-
-```python
-
+import math
 # Sample Date - SH000300 Earning in 2017-03
 
-datas = [0.16, -0.67, -0.21, 0.54, 0.22, -0.15, -0.63, 0.03, 0.88, -0.04, 0.20, 0.52, -1.03, 0.11, 0.49, -0.47, 0.35, 0.80, -0.33, -0.24, -0.13, -0.82, 0.56]
+datas_sh000300 = [0.16, -0.67, -0.21, 0.54, 0.22, -0.15, -0.63, 0.03, 0.88, -0.04, 0.20, 0.52, -1.03, 0.11, 0.49, -0.47, 0.35, 0.80, -0.33, -0.24, -0.13, -0.82, 0.56]
 
-mean1 = sum(datas)/len(datas) 
+datas_sz000651 = [0.07, -0.55, -0.04, 3.11, 0.28, -0.50, 1.10, 1.97, -0.31, -0.55, 2.06, -0.24, -1.44, 1.56, 3.69, 0.53, 2.30, 1.09, -2.63, 0.29, 1.30, -1.54, 3.19]
 
-# result =  0.0060869565217391355
+mean_sh000300 = sum(datas_sh000300) / len(datas_sh000300)
 
-square_datas = []
+mean_sz000651 = sum(datas_sz000651) / len(datas_sz000651)
 
-for i in datas:
+temp_datas = []
 
-  square_datas.append((i-mean1)*(i-mean1))
+for i in range(0, len(datas_sh000300)):
 
-  variance = sum(square_datas)/len(square_datas)
+    temp_datas.append((datas_sh000300[i] - mean_sh000300) * (datas_sz000651[i] - mean_sz000651))
 
-print(str(variance))
+cov = sum(temp_datas)/len(temp_datas)
 
-# result = 0.25349338374291114
+print(str(cov))
 
- # 当然如果你使用了numpy，那么求方差将会十分的简单：
+# result = 0.4385294896030246
+
+ ## 当然如果你使用了numpy，那么求协方差将会十分的简单：
 
 import numpy as np
 
+# Sample Date - SH000300 Earning in 2017-03
 
-variance = np.var(datas)
+cov2 = np.cov(datas_sh000300, datas_sz000651, ddof=0)[1][0]
 
-print(str(variance))
+print(str(cov2))
 
-# result = 0.253493383743
-
+# result = 0.438529489603
 
 ```
+
+
+
 
 
 * pearson 相关系数
