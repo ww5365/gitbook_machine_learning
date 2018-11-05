@@ -50,15 +50,16 @@ $$cov(x,y) = E((E(x)-x)(E(y)-y))$$
 datas = [0.16, -0.67, -0.21, 0.54, 0.22, -0.15, -0.63, 0.03, 0.88, -0.04, 0.20, 0.52, -1.03, 0.11, 0.49, -0.47, 0.35, 0.80, -0.33, -0.24, -0.13, -0.82, 0.56]
 
 mean1 = sum(datas)/len(datas) 
+
 # result =  0.0060869565217391355
 
 square_datas = []
 
 for i in datas:
 
-square_datas.append((i-mean1)*(i-mean1))
+  square_datas.append((i-mean1)*(i-mean1))
 
-variance = sum(square_datas)/len(square_datas)
+  variance = sum(square_datas)/len(square_datas)
 
 print(str(variance))
 
