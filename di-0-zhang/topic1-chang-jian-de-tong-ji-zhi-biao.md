@@ -42,6 +42,7 @@ $$cov(x,y) = E((E(x)-x)(E(y)-y))$$
 如果x=y,协方差就是方差；
 
 
+
 ```python
 
 # Sample Date - SH000300 Earning in 2017-03
