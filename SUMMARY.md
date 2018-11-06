@@ -13,4 +13,5 @@
   * [topic4 - CNN](chapter1/topic4-cnn.md)
 * [第0章](di-0-zhang.md)
   * [topic1 - 常见的统计指标](di-0-zhang/topic1-chang-jian-de-tong-ji-zhi-biao.md)
+  * [topic2-机器学习技术应用思考](di-0-zhang/topic2ji-qi-xue-xi-ji-zhu-ying-yong-si-kao.md)
 
