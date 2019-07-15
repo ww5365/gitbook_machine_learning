@@ -6,6 +6,7 @@
   * [topic-机器学习-基本概念](chapter2/topicji-qi-xue-4e60-xiang-guan-zhu-yu.md)
   * [topic-经典决策树算法](chapter2/topicjing-dian-jue-ce-shu-suan-fa.md)
   * [topic-LTR-玉面初识](chapter2/ltryu-mian-chu-shi.md)
+  * [topic - IR Evaluation Index](chapter2/topic-ir-evaluation-index.md)
 * [第一章 ](chapter1.md)
   * [topic2 - logistic\_regression](chapter1/topic2 - logistic_regression.md)
   * [topic1- 方向导数 梯度](chapter1/topic1-fang-xiang-dao-shu-ti-du.md)
