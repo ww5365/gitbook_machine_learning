@@ -11,7 +11,6 @@ NDCG: normalized discount cumulative gain
 
 
 
-.
 
 ## Reference
 
