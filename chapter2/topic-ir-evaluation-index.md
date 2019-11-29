@@ -4,6 +4,8 @@
 
 NDCG: normalized discount cumulative gain
 
+NDCG(normalize DCG)计算的是一个标准化后值，是实际排序的DCG值比上理想排序DCG值，范围是0~1
+
 主要衡量了网页的排序质量指标
 
 
