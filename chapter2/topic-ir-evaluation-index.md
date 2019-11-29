@@ -21,6 +21,15 @@ gain即是每条结果的质量的定义，NDCG把所有结果相加最终相加
 * 总结：以NDCG为优化目标，保证了搜索引擎在返回结果总体质量好的情况下，把更高质量结果排在更前面
 
 
+
+## ERR
+
+常被用来评估rank效果。但是参考 wiki 中的计算方法，看不到了。
+
+
+##AUC
+
+
 ## Reference
 
 1、https://www.cnblogs.com/HappyAngel/p/3535919.html
