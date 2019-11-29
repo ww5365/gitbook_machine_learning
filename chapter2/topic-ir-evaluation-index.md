@@ -27,7 +27,22 @@ gain即是每条结果的质量的定义，NDCG把所有结果相加最终相加
 常被用来评估rank效果。但是参考 wiki 中的计算方法，看不到了。
 
 
-##AUC
+##ROC AUC
+
+正确率accuracy = （TP+TN）/( TP+PN+FN+TN)，即正确识别的样本比例；
+准确率precision =TP/(TP+FP)，即预测为正例的样本中真正正例的比例；
+召回率 recall= TP/(TP+FN)，即预测为正例的样本占真正正例样本的比例；
+查准率与查全率的调和平均数 F1= 2*precision*recall/(precision+recall)
+错误率 = 1 - 正确率，参见上述 “正确率”；
+假阳率：fp_rate=FP/(FP+TN)
+f_mea(F1)：2*precision*recall/ (precision+recall)
+ROC曲线：将预测值由高到低排序后，选取N个分位点，分别令每个值为阈值下的假阳率(FP/(FP+TN))和召回率，绘制该坐标点。然后将N个点连成线即为ROC曲线；
+AUC值 = ROC曲线下面的面积，用于比较两个分类器的整体指标；
+RMSE ：均方根误差；
+spearmen：label与predict的相关性系数；
+
+![](/assets/混淆矩阵.png)
+
 
 
 ## Reference
